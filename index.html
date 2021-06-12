@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/shoco.js"></script>
+    <script src="js/main.js"></script>
+    <title>Quack!</title>
+</head>
+<body>
+    <h1>Quack-Criptor</h1>
+    <div id="palavra-chave">
+        <label>Palavra chave</label>
+        <input id="chave" type="text" value="quack">
+    </div>
+    <div id="entradas">
+        <div id="nao-cripto">
+            <textarea id="texto-nao-cripto" placeholder="texto para encriptar"></textarea>
+            <input type="button" value="Encripitar" onclick="encriptacao()">
+        </div>
+        <div id="cripto">
+            <textarea id="texto-cripto" placeholder="texto para decriptar"></textarea>
+            <input type="button" value="Decriptar" onclick="decriptacao()">
+        </div>
+    </div>
+</body>
+</html>
