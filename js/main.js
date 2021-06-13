@@ -133,7 +133,7 @@ function decriptacao(){
 		encriptadosArray.push(parteNum)
 	}
 
-	let UintArrayTexto = Uint8Array.from(encriptadosArray)
+	let UintArrayTexto = new Uint8Array(encriptadosArray)
 
 	let saida = shoco.decompress(UintArrayTexto)
 
